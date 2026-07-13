@@ -51,6 +51,8 @@ export async function applyAll(
 				cacheRead: number;
 				cacheWrite: number;
 			};
+			input: ("text" | "image")[];
+			api: Api;
 		}>
 	>();
 	for (const p of discovery.builtinProviders) {
@@ -63,6 +65,8 @@ export async function applyAll(
 				contextWindow: m.contextWindow,
 				maxTokens: m.maxTokens,
 				cost: m.cost,
+				input: m.input,
+				api: p.api,
 			})),
 		);
 	}
