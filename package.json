@@ -1,12 +1,12 @@
 {
-  "name": "pi-cliproxyapi",
-  "version": "0.3.4",
+  "name": "@37bytes/pi-cliproxyapi",
+  "version": "0.4.0",
   "type": "module",
   "description": "Pi extension for corporate management of model providers via a single CliProxyAPI endpoint",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abix5/pi-cliproxyapi.git"
+    "url": "git+https://github.com/37bytes/pi-cliproxyapi.git"
   },
   "files": [
     "index.ts",
@@ -28,7 +28,6 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@earendil-works/pi-ai": "*",
     "@earendil-works/pi-coding-agent": "*",
     "@earendil-works/pi-tui": "*"
   },
